@@ -235,14 +235,7 @@ Swagger documentation available at http://localhost:5000/api-docs
 
 ---
 
-## 13. Swagger & Postman
-
-* **Swagger UI:** `http://localhost:5000/api-docs`
-* **Postman Collection:** File path `postman/WriteSpace.postman_collection.json`
-
----
-
-## 14. Viva / Examination Q&A Guide
+## 13. Viva / Examination Q&A Guide
 
 When presenting this project in a B.Tech Computer Science Viva / Practical Examination, use the following explanations:
 
@@ -260,3 +253,8 @@ When presenting this project in a B.Tech Computer Science Viva / Practical Exami
    * `populate()` automatically replaces specified ObjectId reference fields in a document (e.g. `author` in Post) with actual documents from another collection (`User`).
 7. **Why hash passwords with `bcryptjs`?**
    * Storing plain text passwords is a security risk. `bcryptjs` uses a salted one-way hashing algorithm (`bcrypt.hash`) that makes it computationally infeasible to reverse or crack via rainbow table attacks.
+  
+   ## 14.Conclusion
+The WriteSpace Blogging Platform Backend successfully demonstrates the development of a modular RESTful API using Node.js, Express.js, MongoDB, Mongoose, JWT authentication, and Firebase Storage support. The system provides essential blogging features such as user authentication, post management, search, comments, likes, and follow/unfollow functionality.
+The project follows a structured backend architecture with separate routes, controllers, models, middleware, validators, and utility modules. APIs can be documented through Swagger and tested using API testing tools, while MongoDB provides persistent storage for application data.
+Overall, Case Study 98 demonstrates the practical implementation of backend development concepts and provides a functional foundation for a scalable blogging platform.
